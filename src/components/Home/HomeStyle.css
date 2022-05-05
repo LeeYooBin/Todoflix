@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-color: #000;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+#mainMovie{
+    margin: 15vh 0 5vh 4%;
+    display: flex;
+}
+
+#mainPoster img{
+    width: 30vw;
+    height: 35vh;
+}
+
+#mainInfo{
+    margin-left: 2.5vw;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainLike{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    width: 8%;
+}
+
+.posters{
+    width: 20vw;
+    height: 30vh;
+}
+
+.title{
+    margin: 1vh 0 1vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movieSynopsis{
+    font-size: 0.8rem;
+}
+
+#carousel{
+    display: flex;
+    flex-direction: column;
+}
+
+.heart{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+}
+
+.like{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%; 
+}
+
+h3{
+    margin: 5vh 0 3vh 4%;
+}
+
